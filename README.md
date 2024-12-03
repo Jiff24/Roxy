@@ -2,7 +2,7 @@
 
 This application serves as a proxy for HLS streams, enabling secure access to media content.
 
----
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Toasty360/Roxy)
 
 ## Proxy Endpoint
 
@@ -38,3 +38,5 @@ btoa(JSON.stringify({ Referrer: 'https://anitaku.bz' }));
 ```
 /proxy?url=aHR0cDovL2V4YW1wbGUuY29tL3N0cmVhbS5tM3U4&headers=eyJBdXRob3JpemF0aW9uIjoiQmVhcmVyIHRva2VuIn0=
 ```
+
+
